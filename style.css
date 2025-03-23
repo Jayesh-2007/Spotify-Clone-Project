@@ -4,6 +4,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Winky Sans", "Varela Round";
 }
 
 body {
@@ -11,8 +12,7 @@ body {
 }
 
 .navbar {
-  font-family: "Winky Sans", "Varela Round";
-  font-size: 16px;
+  font-size: 18px;
   color: white;
   height: 64px;
   padding: 8px;
@@ -24,20 +24,99 @@ body {
 .navbar ul {
   width: 100vw;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   list-style-type: none;
 }
 
+.navbar ul li {
+  margin-left: 60px;
+  padding: 16kpx;
+}
+
 .nav-logo {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   font-weight: bolder;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
+  padding: 4px;
 }
 
 .nav-logo img {
+  height: 40px;
+  padding: 4px;
+}
+
+.bgeffect {
+  background-color: #1f1f1f;
+  border-radius: 3px;
+}
+
+.container {
+  min-height: 80vh;
+  background-color: #1f1f1f;
+  color: white;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 1rem;
+  background-image: url("assets/bg.jpg");
+  background-size: contain;
+}
+
+.bottom {
+  background-color: black;
+  height: 100px;
+  position: sticky;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#progressBar {
+  width: 80vw;
+}
+
+.icons {
+  margin-top: 14px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+.songItem {
+  width: 40%;
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 1rem 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 32px;
+}
+
+.songItem img {
   height: 32px;
-  padding: 8px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+
+.timestemp {
+  margin: 0 23px;
+  cursor: pointer;
+}
+
+.songInfo {
+  color: white;
+  position: absolute;
+  left: 10vw;
+}
+
+.songInfo img{
+  opacity:0;
 }
