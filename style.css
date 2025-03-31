@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: lightblue;
+  background-color: rgb(30,215,96);
 }
 
 .navbar {
@@ -16,7 +16,7 @@ body {
   color: white;
   height: 64px;
   padding: 8px;
-  background-color: black;
+  background-color: #031509;
   display: flex;
   align-items: center;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 .bottom {
-  background-color: black;
+  background-color: #062B13;
   height: 100px;
   position: sticky;
   bottom: 0px;
@@ -76,8 +76,9 @@ body {
   flex-direction: column;
 }
 
-#progressBar {
+#progressbar {
   width: 80vw;
+  cursor: pointer;
 }
 
 .icons {
@@ -119,4 +120,5 @@ body {
 
 .songInfo img{
   opacity:0;
+  transition: opacity 0.4s ease-in; 
 }
